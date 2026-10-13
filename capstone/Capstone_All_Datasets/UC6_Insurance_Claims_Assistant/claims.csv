@@ -1,0 +1,501 @@
+claim_id,policy_id,customer_id,product,claim_type,claim_date,claimed_amount_inr,current_status,ineligibility_reasons_ground_truth,eligibility_ground_truth,expected_payable_inr
+CLM000001,POL000264,CUST00134,Health,Dental,2026-03-17,84000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000002,POL000195,CUST00150,Health,Cosmetic Surgery,2026-10-11,123000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000003,POL000256,CUST00019,Motor,Accidental Damage,2026-01-22,456500,Under Review,,Eligible,454500
+CLM000004,POL000238,CUST00152,Health,Day-care Procedure,2025-04-13,301500,Surveyor Assigned,,Eligible,301500
+CLM000005,POL000014,CUST00034,Health,Day-care Procedure,2026-05-14,818500,Registered,,Eligible,818500
+CLM000006,POL000235,CUST00156,Health,Hospitalisation,2025-03-29,55500,Approved,,Eligible,55500
+CLM000007,POL000125,CUST00142,Home,Earthquake,2026-09-23,2331000,Under Review,,Eligible,2321000
+CLM000008,POL000177,CUST00126,Home,Earthquake,2026-01-19,1046000,Documents Pending,,Eligible,1036000
+CLM000009,POL000214,CUST00008,Health,Day-care Procedure,2026-10-12,56000,Settled,,Eligible,56000
+CLM000010,POL000138,CUST00107,Motor,Third-party Liability,2026-08-15,11000,Documents Pending,,Eligible,11000
+CLM000011,POL000276,CUST00108,Home,Burglary,2026-09-11,2586000,Documents Pending,,Eligible,2581000
+CLM000012,POL000196,CUST00183,Home,Earthquake,2024-10-18,139500,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000013,POL000118,CUST00063,Health,Day-care Procedure,2026-06-19,200500,Settled,,Eligible,200500
+CLM000014,POL000239,CUST00023,Health,Day-care Procedure,2026-07-13,134000,Registered,,Eligible,134000
+CLM000015,POL000121,CUST00199,Home,Burglary,2026-10-12,833500,Settled,,Eligible,828500
+CLM000016,POL000241,CUST00128,Travel,Baggage Loss,2024-10-16,84000,Settled,,Eligible,83000
+CLM000017,POL000178,CUST00016,Motor,Theft,2025-06-02,125500,Payment Initiated,,Eligible,125500
+CLM000018,POL000005,CUST00172,Home,Earthquake,2025-04-28,667500,Under Review,,Eligible,657500
+CLM000019,POL000067,CUST00096,Travel,Trip Cancellation,2026-09-13,704000,Registered,,Eligible,701500
+CLM000020,POL000044,CUST00151,Health,Cosmetic Surgery,2026-09-10,736000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000021,POL000021,CUST00180,Health,Day-care Procedure,2026-02-25,535500,Settled,,Eligible,535500
+CLM000022,POL000262,CUST00048,Health,Dental,2026-05-31,522000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000023,POL000247,CUST00015,Health,Hospitalisation,2026-07-06,395500,Approved,,Eligible,395500
+CLM000024,POL000314,CUST00096,Travel,Medical Emergency Abroad,2026-03-03,857500,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000025,POL000161,CUST00078,Motor,Consequential Loss,2026-10-10,277500,Registered,Claim type excluded under policy terms,Not Eligible,0
+CLM000026,POL000213,CUST00098,Home,Earthquake,2026-01-29,2688500,Query Raised,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000027,POL000035,CUST00197,Health,Dental,2025-12-17,203500,Registered,Policy lapsed due to unpaid premium; Claim type excluded under policy terms,Not Eligible,0
+CLM000028,POL000078,CUST00180,Home,Earthquake,2026-10-06,3239500,Registered,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000029,POL000082,CUST00117,Motor,Third-party Liability,2025-06-19,133500,Settled,,Eligible,133500
+CLM000030,POL000136,CUST00170,Motor,Third-party Liability,2026-09-15,235000,Under Review,,Eligible,235000
+CLM000031,POL000308,CUST00101,Health,Day-care Procedure,2026-04-29,149000,Rejected,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000032,POL000084,CUST00007,Motor,Third-party Liability,2026-09-09,514000,Settled,,Eligible,514000
+CLM000033,POL000028,CUST00002,Home,Earthquake,2026-06-09,2646000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000034,POL000223,CUST00130,Health,Hospitalisation,2025-09-28,394000,Under Review,,Eligible,394000
+CLM000035,POL000296,CUST00172,Travel,Medical Emergency Abroad,2025-04-15,496500,Registered,Claim date outside policy period,Not Eligible,0
+CLM000036,POL000213,CUST00098,Home,Earthquake,2025-08-30,1622000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000037,POL000077,CUST00020,Motor,Wear and Tear,2026-04-10,17500,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000038,POL000102,CUST00113,Motor,Theft,2026-09-25,6500,Rejected,Claim date outside policy period; Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000039,POL000065,CUST00046,Health,Day-care Procedure,2025-12-31,340000,Settled,,Eligible,340000
+CLM000040,POL000032,CUST00125,Health,Day-care Procedure,2026-06-17,197000,Rejected,Within waiting period of 30 days,Not Eligible,0
+CLM000041,POL000291,CUST00033,Health,Day-care Procedure,2026-04-11,250500,Under Review,,Eligible,250500
+CLM000042,POL000035,CUST00197,Health,Day-care Procedure,2026-03-28,411500,Query Raised,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000043,POL000289,CUST00011,Motor,Natural Calamity,2026-03-24,532500,Under Review,,Eligible,530500
+CLM000044,POL000025,CUST00147,Motor,Accidental Damage,2026-06-24,126000,Registered,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000045,POL000140,CUST00059,Motor,Natural Calamity,2026-06-22,80000,Approved,,Eligible,78000
+CLM000046,POL000240,CUST00116,Travel,Baggage Loss,2026-08-03,156000,Settled,,Eligible,155000
+CLM000047,POL000090,CUST00172,Home,Burglary,2024-12-29,2356000,Approved,,Eligible,2351000
+CLM000048,POL000226,CUST00067,Home,Burglary,2026-10-11,3335000,Payment Initiated,,Eligible,3330000
+CLM000049,POL000138,CUST00107,Motor,Third-party Liability,2026-08-21,41000,Under Review,,Eligible,41000
+CLM000050,POL000074,CUST00147,Health,Hospitalisation,2026-06-20,16000,Settled,,Eligible,16000
+CLM000051,POL000076,CUST00022,Travel,Baggage Loss,2025-10-19,165000,Registered,,Eligible,164000
+CLM000052,POL000076,CUST00022,Travel,Trip Cancellation,2025-10-22,456000,Under Review,,Eligible,453500
+CLM000053,POL000025,CUST00147,Motor,Accidental Damage,2026-10-06,243500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000054,POL000028,CUST00002,Home,Fire,2026-10-12,2588500,Approved,,Eligible,2583500
+CLM000055,POL000058,CUST00129,Motor,Third-party Liability,2025-09-19,211000,Approved,,Eligible,211000
+CLM000056,POL000093,CUST00157,Motor,Third-party Liability,2025-05-07,111500,Under Review,,Eligible,111500
+CLM000057,POL000077,CUST00020,Motor,Theft,2026-03-03,308500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000058,POL000225,CUST00173,Travel,Trip Cancellation,2026-03-07,338000,Settled,,Eligible,335500
+CLM000059,POL000267,CUST00168,Motor,Theft,2026-04-17,162000,Registered,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000060,POL000221,CUST00002,Health,Hospitalisation,2026-10-01,299500,Approved,,Eligible,299500
+CLM000061,POL000082,CUST00117,Motor,Theft,2025-03-13,324500,Registered,,Eligible,324500
+CLM000062,POL000275,CUST00156,Motor,Theft,2026-10-12,61000,Approved,,Eligible,61000
+CLM000063,POL000173,CUST00103,Motor,Natural Calamity,2026-10-12,35000,Rejected,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000064,POL000020,CUST00055,Motor,Theft,2026-04-19,171000,Approved,,Eligible,171000
+CLM000065,POL000038,CUST00092,Home,Fire,2025-12-26,1601500,Documents Pending,,Eligible,1596500
+CLM000066,POL000301,CUST00148,Health,Day-care Procedure,2026-06-21,430000,Under Review,,Eligible,430000
+CLM000067,POL000014,CUST00034,Health,Dental,2026-08-09,831500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000068,POL000059,CUST00150,Motor,Third-party Liability,2026-06-28,21000,Approved,,Eligible,21000
+CLM000069,POL000204,CUST00087,Home,Earthquake,2026-06-29,1735000,Settled,,Eligible,1725000
+CLM000070,POL000272,CUST00042,Motor,Third-party Liability,2025-01-31,561000,Documents Pending,,Eligible,561000
+CLM000071,POL000281,CUST00141,Travel,Baggage Loss,2026-05-21,174000,Under Review,,Eligible,173000
+CLM000072,POL000023,CUST00144,Home,Earthquake,2026-02-14,2672500,Under Review,,Eligible,2662500
+CLM000073,POL000088,CUST00124,Motor,Accidental Damage,2025-03-06,422000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000074,POL000024,CUST00113,Home,Earthquake,2024-09-21,508000,Settled,,Eligible,498000
+CLM000075,POL000309,CUST00154,Health,Hospitalisation,2026-04-04,256000,Under Review,,Eligible,256000
+CLM000076,POL000077,CUST00020,Motor,Natural Calamity,2026-08-12,146000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000077,POL000016,CUST00105,Home,Earthquake,2025-09-13,1759000,Under Review,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000078,POL000229,CUST00187,Health,Day-care Procedure,2026-02-04,354500,Surveyor Assigned,,Eligible,354500
+CLM000079,POL000123,CUST00121,Home,Fire,2026-09-04,2554000,Under Review,,Eligible,2549000
+CLM000080,POL000159,CUST00021,Health,Maternity,2026-10-02,504000,Registered,Within waiting period of 730 days,Not Eligible,0
+CLM000081,POL000024,CUST00113,Home,Water Damage,2025-07-06,3012500,Settled,,Eligible,3007500
+CLM000082,POL000088,CUST00124,Motor,Third-party Liability,2025-01-04,659000,Approved,,Eligible,659000
+CLM000083,POL000266,CUST00037,Motor,Theft,2025-06-04,296500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000084,POL000042,CUST00182,Motor,Theft,2025-09-18,393500,Documents Pending,,Eligible,393500
+CLM000085,POL000202,CUST00181,Health,Day-care Procedure,2026-07-12,149000,Approved,,Eligible,149000
+CLM000086,POL000203,CUST00081,Home,Burglary,2026-04-30,2117500,Settled,,Eligible,2112500
+CLM000087,POL000285,CUST00098,Health,Cosmetic Surgery,2026-09-22,116000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000088,POL000054,CUST00083,Health,Dental,2026-06-06,158000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000089,POL000048,CUST00098,Motor,Accidental Damage,2026-10-12,244500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000090,POL000228,CUST00141,Motor,Accidental Damage,2025-10-01,491000,Payment Initiated,,Eligible,489000
+CLM000091,POL000019,CUST00023,Home,Burglary,2025-03-28,784000,Settled,,Eligible,779000
+CLM000092,POL000256,CUST00019,Motor,Natural Calamity,2026-10-12,517000,Documents Pending,,Eligible,515000
+CLM000093,POL000207,CUST00031,Health,Day-care Procedure,2026-08-07,288000,Settled,,Eligible,288000
+CLM000094,POL000025,CUST00147,Motor,Theft,2026-09-11,276000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000095,POL000303,CUST00083,Home,Water Damage,2026-07-17,1255000,Registered,,Eligible,1250000
+CLM000096,POL000186,CUST00186,Health,Hospitalisation,2026-09-07,548500,Registered,,Eligible,548500
+CLM000097,POL000243,CUST00085,Home,Earthquake,2026-07-04,616000,Query Raised,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000098,POL000191,CUST00020,Home,Earthquake,2026-09-01,872500,Settled,,Eligible,862500
+CLM000099,POL000125,CUST00142,Home,Fire,2026-10-01,3157000,Settled,,Eligible,3152000
+CLM000100,POL000021,CUST00180,Health,Maternity,2026-08-23,37000,Rejected,Within waiting period of 730 days,Not Eligible,0
+CLM000101,POL000198,CUST00092,Travel,Adventure Sports,2026-09-20,1105500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000102,POL000136,CUST00170,Motor,Accidental Damage,2026-09-15,492500,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000103,POL000165,CUST00064,Travel,Baggage Loss,2025-05-16,120500,Payment Initiated,,Eligible,119500
+CLM000104,POL000017,CUST00103,Motor,Consequential Loss,2026-08-14,152500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000105,POL000176,CUST00195,Health,Day-care Procedure,2026-05-30,361000,Query Raised,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000106,POL000174,CUST00092,Motor,Wear and Tear,2026-08-12,115000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000107,POL000219,CUST00136,Health,Day-care Procedure,2026-10-09,547000,Registered,,Eligible,547000
+CLM000108,POL000070,CUST00112,Travel,Medical Emergency Abroad,2025-04-30,2090000,Documents Pending,,Eligible,2090000
+CLM000109,POL000152,CUST00006,Travel,Baggage Loss,2024-11-23,74000,Under Review,,Eligible,73000
+CLM000110,POL000278,CUST00105,Health,Day-care Procedure,2026-07-17,546000,Query Raised,Claim date outside policy period,Not Eligible,0
+CLM000111,POL000234,CUST00051,Travel,Medical Emergency Abroad,2026-09-25,776500,Approved,,Eligible,776500
+CLM000112,POL000311,CUST00198,Motor,Third-party Liability,2025-12-30,170500,Settled,,Eligible,170500
+CLM000113,POL000057,CUST00195,Travel,Trip Cancellation,2026-04-13,127500,Documents Pending,,Eligible,125000
+CLM000114,POL000194,CUST00042,Motor,Theft,2026-07-07,77000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000115,POL000260,CUST00060,Travel,Baggage Loss,2026-09-08,1142500,Payment Initiated,,Eligible - payout capped,884000
+CLM000116,POL000229,CUST00187,Health,Cosmetic Surgery,2026-03-04,383500,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000117,POL000134,CUST00136,Motor,Natural Calamity,2024-11-01,325000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000118,POL000270,CUST00147,Travel,Baggage Loss,2024-12-09,27500,Under Review,,Eligible,26500
+CLM000119,POL000012,CUST00093,Motor,Natural Calamity,2026-05-23,162500,Approved,,Eligible,160500
+CLM000120,POL000021,CUST00180,Health,Day-care Procedure,2025-12-26,463500,Rejected,Within waiting period of 30 days,Not Eligible,0
+CLM000121,POL000075,CUST00042,Health,Hospitalisation,2025-04-01,578500,Payment Initiated,,Eligible,578500
+CLM000122,POL000036,CUST00003,Travel,Trip Cancellation,2024-10-14,24500,Payment Initiated,,Eligible,22000
+CLM000123,POL000072,CUST00155,Home,Water Damage,2026-05-21,768000,Payment Initiated,,Eligible,763000
+CLM000124,POL000267,CUST00168,Motor,Theft,2026-08-28,251500,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000125,POL000197,CUST00119,Health,Hospitalisation,2026-06-20,648000,Documents Pending,,Eligible,648000
+CLM000126,POL000317,CUST00196,Health,Dental,2025-02-04,240000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000127,POL000267,CUST00168,Motor,Consequential Loss,2026-10-12,301500,Registered,Claim type excluded under policy terms,Not Eligible,0
+CLM000128,POL000131,CUST00003,Motor,Accidental Damage,2025-05-24,95500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000129,POL000043,CUST00148,Health,Maternity,2026-06-14,235000,Rejected,Within waiting period of 730 days,Not Eligible,0
+CLM000130,POL000154,CUST00058,Health,Maternity,2026-06-01,199500,Rejected,Within waiting period of 730 days; Maternity not covered on Basic plan,Not Eligible,0
+CLM000131,POL000230,CUST00174,Health,Hospitalisation,2026-03-30,579500,Settled,,Eligible,579500
+CLM000132,POL000011,CUST00071,Health,Cosmetic Surgery,2026-08-10,247000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000133,POL000153,CUST00049,Motor,Third-party Liability,2026-06-30,29000,Under Review,,Eligible,29000
+CLM000134,POL000268,CUST00191,Travel,Adventure Sports,2026-04-06,58000,Under Review,Claim date outside policy period; Claim type excluded under policy terms,Not Eligible,0
+CLM000135,POL000199,CUST00137,Travel,Adventure Sports,2025-12-11,1691000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000136,POL000167,CUST00152,Travel,Baggage Loss,2024-08-29,219500,Settled,,Eligible,218500
+CLM000137,POL000197,CUST00119,Health,Day-care Procedure,2026-03-11,354000,Under Review,,Eligible,354000
+CLM000138,POL000116,CUST00074,Travel,Adventure Sports,2025-10-13,463000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000139,POL000082,CUST00117,Motor,Natural Calamity,2025-07-11,455500,Approved,,Eligible,453500
+CLM000140,POL000046,CUST00084,Travel,Baggage Loss,2025-06-25,524000,Under Review,,Eligible - payout capped,449000
+CLM000141,POL000196,CUST00183,Home,Fire,2025-06-19,800500,Under Review,,Eligible,795500
+CLM000142,POL000099,CUST00103,Travel,Baggage Loss,2024-06-13,99500,Registered,,Eligible,98500
+CLM000143,POL000146,CUST00092,Motor,Natural Calamity,2026-06-28,463500,Settled,,Eligible,461500
+CLM000144,POL000085,CUST00042,Travel,Baggage Loss,2024-10-13,421000,Settled,,Eligible,420000
+CLM000145,POL000226,CUST00067,Home,Earthquake,2026-09-29,423000,Registered,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000146,POL000059,CUST00150,Motor,Theft,2026-10-12,338500,Settled,,Eligible,338500
+CLM000147,POL000302,CUST00169,Travel,Medical Emergency Abroad,2025-03-21,79500,Payment Initiated,,Eligible,79500
+CLM000148,POL000096,CUST00054,Travel,Baggage Loss,2025-09-17,15500,Under Review,Claim date outside policy period,Not Eligible,0
+CLM000149,POL000135,CUST00044,Health,Day-care Procedure,2024-09-18,539000,Approved,,Eligible,539000
+CLM000150,POL000023,CUST00144,Home,Burglary,2026-02-10,957000,Surveyor Assigned,,Eligible,952000
+CLM000151,POL000205,CUST00167,Health,Cosmetic Surgery,2026-06-04,558000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000152,POL000183,CUST00042,Motor,Third-party Liability,2026-03-10,122500,Documents Pending,,Eligible,122500
+CLM000153,POL000140,CUST00059,Motor,Third-party Liability,2026-09-01,128000,Under Review,,Eligible,128000
+CLM000154,POL000121,CUST00199,Home,Earthquake,2026-08-20,400000,Query Raised,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000155,POL000303,CUST00083,Home,Burglary,2026-09-11,636500,Documents Pending,,Eligible,631500
+CLM000156,POL000181,CUST00162,Travel,Trip Cancellation,2025-05-14,813500,Registered,,Eligible,811000
+CLM000157,POL000004,CUST00078,Home,Burglary,2026-10-09,1314500,Documents Pending,,Eligible,1309500
+CLM000158,POL000033,CUST00063,Health,Hospitalisation,2026-10-12,287000,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000159,POL000045,CUST00187,Health,Maternity,2026-07-06,229500,Under Review,Within waiting period of 730 days,Not Eligible,0
+CLM000160,POL000045,CUST00187,Health,Day-care Procedure,2026-01-15,159500,Under Review,,Eligible,159500
+CLM000161,POL000256,CUST00019,Motor,Third-party Liability,2026-04-15,573500,Under Review,,Eligible,573500
+CLM000162,POL000023,CUST00144,Home,Earthquake,2026-06-07,3641000,Settled,,Eligible,3631000
+CLM000163,POL000269,CUST00083,Motor,Accidental Damage,2026-02-16,333500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000164,POL000209,CUST00151,Health,Pre-existing Condition,2026-08-10,183000,Rejected,Within waiting period of 1095 days,Not Eligible,0
+CLM000165,POL000255,CUST00020,Travel,Trip Cancellation,2025-08-10,216500,Payment Initiated,,Eligible,214000
+CLM000166,POL000291,CUST00033,Health,Hospitalisation,2026-02-09,446000,Settled,,Eligible,446000
+CLM000167,POL000227,CUST00069,Motor,Accidental Damage,2026-10-04,33500,Query Raised,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000168,POL000201,CUST00111,Home,Fire,2026-10-12,317000,Query Raised,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000169,POL000020,CUST00055,Motor,Third-party Liability,2026-10-03,103500,Approved,,Eligible,103500
+CLM000170,POL000113,CUST00063,Motor,Natural Calamity,2025-05-04,33500,Settled,,Eligible,31500
+CLM000171,POL000003,CUST00151,Travel,Medical Emergency Abroad,2025-03-13,357000,Surveyor Assigned,,Eligible,357000
+CLM000172,POL000222,CUST00110,Travel,Baggage Loss,2025-03-31,1308500,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000173,POL000239,CUST00023,Health,Day-care Procedure,2026-08-11,222500,Approved,,Eligible,222500
+CLM000174,POL000022,CUST00178,Travel,Baggage Loss,2024-10-02,1224500,Under Review,,Eligible - payout capped,944000
+CLM000175,POL000190,CUST00059,Motor,Theft,2026-09-07,111000,Under Review,Claim date outside policy period,Not Eligible,0
+CLM000176,POL000176,CUST00195,Health,Cosmetic Surgery,2026-09-21,425500,Registered,Policy lapsed due to unpaid premium; Claim type excluded under policy terms,Not Eligible,0
+CLM000177,POL000184,CUST00059,Home,Gradual Deterioration,2026-10-01,296500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000178,POL000017,CUST00103,Motor,Third-party Liability,2026-09-14,188000,Payment Initiated,,Eligible,188000
+CLM000179,POL000112,CUST00005,Motor,Theft,2026-10-12,398000,Registered,Claim date outside policy period,Not Eligible,0
+CLM000180,POL000230,CUST00174,Health,Cosmetic Surgery,2025-10-27,131500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000181,POL000027,CUST00103,Motor,Theft,2026-10-09,29000,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000182,POL000280,CUST00152,Health,Day-care Procedure,2025-02-24,82500,Settled,,Eligible,82500
+CLM000183,POL000270,CUST00147,Travel,Medical Emergency Abroad,2024-12-07,492500,Settled,,Eligible,492500
+CLM000184,POL000300,CUST00052,Home,Burglary,2025-10-12,2564000,Approved,,Eligible,2559000
+CLM000185,POL000130,CUST00093,Health,Dental,2026-10-09,482500,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000186,POL000006,CUST00128,Motor,Third-party Liability,2026-08-06,264500,Under Review,,Eligible,264500
+CLM000187,POL000004,CUST00078,Home,Gradual Deterioration,2026-06-08,2842000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000188,POL000098,CUST00164,Travel,Trip Cancellation,2026-06-19,617500,Under Review,,Eligible,615000
+CLM000189,POL000051,CUST00179,Health,Pre-existing Condition,2026-02-09,280000,Under Review,Within waiting period of 1095 days,Not Eligible,0
+CLM000190,POL000038,CUST00092,Home,Burglary,2026-06-13,2544500,Under Review,,Eligible,2539500
+CLM000191,POL000084,CUST00007,Motor,Third-party Liability,2026-09-27,576500,Settled,,Eligible,576500
+CLM000192,POL000311,CUST00198,Motor,Theft,2026-10-07,280000,Approved,,Eligible,280000
+CLM000193,POL000024,CUST00113,Home,Burglary,2024-09-20,1540000,Documents Pending,,Eligible,1535000
+CLM000194,POL000133,CUST00150,Health,Day-care Procedure,2024-07-11,14000,Approved,,Eligible,14000
+CLM000195,POL000110,CUST00055,Home,Water Damage,2026-03-13,398000,Surveyor Assigned,,Eligible,393000
+CLM000196,POL000196,CUST00183,Home,Water Damage,2024-12-03,853500,Under Review,,Eligible,848500
+CLM000197,POL000200,CUST00022,Health,Day-care Procedure,2026-07-09,242000,Under Review,,Eligible,242000
+CLM000198,POL000256,CUST00019,Motor,Theft,2026-04-29,840000,Approved,,Eligible,840000
+CLM000199,POL000253,CUST00122,Motor,Natural Calamity,2025-01-11,406000,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000200,POL000105,CUST00173,Health,Day-care Procedure,2025-11-25,383500,Under Review,,Eligible,383500
+CLM000201,POL000079,CUST00106,Motor,Third-party Liability,2026-10-12,33000,Settled,,Eligible,33000
+CLM000202,POL000196,CUST00183,Home,Burglary,2025-04-03,829000,Surveyor Assigned,,Eligible,824000
+CLM000203,POL000143,CUST00133,Home,Earthquake,2026-04-23,698000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000204,POL000021,CUST00180,Health,Cosmetic Surgery,2026-09-14,645000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000205,POL000034,CUST00159,Motor,Theft,2025-07-17,544500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000206,POL000292,CUST00077,Motor,Theft,2025-08-19,252000,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000207,POL000307,CUST00066,Motor,Wear and Tear,2024-10-20,6000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000208,POL000078,CUST00180,Home,Water Damage,2026-08-26,3765000,Settled,,Eligible,3760000
+CLM000209,POL000074,CUST00147,Health,Day-care Procedure,2026-10-12,102000,Surveyor Assigned,,Eligible,102000
+CLM000210,POL000131,CUST00003,Motor,Accidental Damage,2025-10-22,322500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000211,POL000032,CUST00125,Health,Hospitalisation,2026-10-12,322500,Settled,,Eligible,322500
+CLM000212,POL000021,CUST00180,Health,Day-care Procedure,2026-10-12,704000,Settled,,Eligible,704000
+CLM000213,POL000107,CUST00088,Motor,Third-party Liability,2026-08-26,605000,Settled,,Eligible,605000
+CLM000214,POL000088,CUST00124,Motor,Accidental Damage,2025-08-15,84000,Rejected,Claim date outside policy period; Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000215,POL000247,CUST00015,Health,Dental,2026-10-01,152500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000216,POL000270,CUST00147,Travel,Medical Emergency Abroad,2024-12-13,439500,Settled,,Eligible,439500
+CLM000217,POL000192,CUST00113,Travel,Medical Emergency Abroad,2025-01-02,1148500,Documents Pending,,Eligible,1148500
+CLM000218,POL000118,CUST00063,Health,Day-care Procedure,2026-10-10,65500,Documents Pending,,Eligible,65500
+CLM000219,POL000006,CUST00128,Motor,Natural Calamity,2026-09-11,266000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000220,POL000050,CUST00044,Motor,Third-party Liability,2026-05-14,132000,Query Raised,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000221,POL000255,CUST00020,Travel,Trip Cancellation,2025-08-09,244000,Payment Initiated,,Eligible,241500
+CLM000222,POL000177,CUST00126,Home,Burglary,2026-01-12,410000,Approved,,Eligible,405000
+CLM000223,POL000044,CUST00151,Health,Pre-existing Condition,2026-06-04,547000,Rejected,Within waiting period of 1095 days,Not Eligible,0
+CLM000224,POL000143,CUST00133,Home,Earthquake,2026-05-17,222000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000225,POL000122,CUST00120,Motor,Natural Calamity,2025-11-29,708500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000226,POL000006,CUST00128,Motor,Accidental Damage,2026-09-19,331000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000227,POL000257,CUST00085,Home,Water Damage,2025-12-07,720000,Under Review,,Eligible,715000
+CLM000228,POL000165,CUST00064,Travel,Baggage Loss,2025-05-16,387000,Documents Pending,,Eligible - payout capped,314000
+CLM000229,POL000086,CUST00015,Motor,Accidental Damage,2026-10-12,11000,Settled,,Eligible,9000
+CLM000230,POL000094,CUST00087,Motor,Accidental Damage,2026-08-08,101000,Payment Initiated,,Eligible,99000
+CLM000231,POL000280,CUST00152,Health,Pre-existing Condition,2024-12-14,376000,Rejected,Within waiting period of 1095 days,Not Eligible,0
+CLM000232,POL000155,CUST00047,Travel,Baggage Loss,2026-05-19,54000,Documents Pending,,Eligible,53000
+CLM000233,POL000178,CUST00016,Motor,Third-party Liability,2025-06-12,275000,Documents Pending,,Eligible,275000
+CLM000234,POL000230,CUST00174,Health,Maternity,2026-05-27,249500,Query Raised,Within waiting period of 730 days,Not Eligible,0
+CLM000235,POL000172,CUST00042,Motor,Natural Calamity,2026-01-26,116000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000236,POL000069,CUST00150,Health,Hospitalisation,2026-05-23,94500,Documents Pending,,Eligible,94500
+CLM000237,POL000150,CUST00172,Motor,Third-party Liability,2026-06-16,388000,Settled,,Eligible,388000
+CLM000238,POL000148,CUST00196,Travel,Adventure Sports,2025-01-25,812000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000239,POL000124,CUST00188,Travel,Medical Emergency Abroad,2024-05-04,1008500,Settled,,Eligible,1008500
+CLM000240,POL000060,CUST00169,Travel,Baggage Loss,2025-06-22,705500,Under Review,Claim date outside policy period,Not Eligible,0
+CLM000241,POL000009,CUST00158,Motor,Natural Calamity,2026-10-11,30500,Registered,,Eligible,28500
+CLM000242,POL000088,CUST00124,Motor,Natural Calamity,2024-10-26,127500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000243,POL000055,CUST00017,Health,Hospitalisation,2026-10-12,216000,Query Raised,Claim date outside policy period,Not Eligible,0
+CLM000244,POL000137,CUST00004,Health,Maternity,2026-04-09,310500,Rejected,Within waiting period of 730 days; Maternity not covered on Basic plan,Not Eligible,0
+CLM000245,POL000054,CUST00083,Health,Cosmetic Surgery,2026-10-01,46000,Registered,Claim type excluded under policy terms,Not Eligible,0
+CLM000246,POL000078,CUST00180,Home,Burglary,2026-07-26,4313000,Surveyor Assigned,,Eligible,4308000
+CLM000247,POL000031,CUST00099,Travel,Medical Emergency Abroad,2024-10-25,209500,Settled,,Eligible,209500
+CLM000248,POL000130,CUST00093,Health,Maternity,2026-10-12,203000,Rejected,Within waiting period of 730 days,Not Eligible,0
+CLM000249,POL000016,CUST00105,Home,Gradual Deterioration,2026-06-28,2028000,Rejected,Claim date outside policy period; Claim type excluded under policy terms,Not Eligible,0
+CLM000250,POL000148,CUST00196,Travel,Baggage Loss,2025-02-16,297000,Approved,,Eligible,296000
+CLM000251,POL000273,CUST00147,Home,Water Damage,2026-08-01,3879500,Surveyor Assigned,,Eligible,3874500
+CLM000252,POL000060,CUST00169,Travel,Adventure Sports,2025-04-18,433000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000253,POL000098,CUST00164,Travel,Medical Emergency Abroad,2026-06-18,1108500,Documents Pending,,Eligible,1108500
+CLM000254,POL000187,CUST00096,Health,Cosmetic Surgery,2025-11-25,207000,Rejected,Claim date outside policy period; Claim type excluded under policy terms,Not Eligible,0
+CLM000255,POL000213,CUST00098,Home,Water Damage,2025-07-20,1342500,Under Review,,Eligible,1337500
+CLM000256,POL000277,CUST00111,Home,Earthquake,2026-01-14,1462000,Registered,,Eligible,1452000
+CLM000257,POL000158,CUST00166,Travel,Baggage Loss,2025-10-27,74000,Surveyor Assigned,,Eligible,73000
+CLM000258,POL000219,CUST00136,Health,Hospitalisation,2026-09-07,307000,Registered,,Eligible,307000
+CLM000259,POL000205,CUST00167,Health,Day-care Procedure,2026-07-13,108500,Settled,,Eligible,108500
+CLM000260,POL000115,CUST00005,Home,Water Damage,2026-08-02,1856000,Under Review,,Eligible,1851000
+CLM000261,POL000084,CUST00007,Motor,Theft,2026-02-28,396000,Registered,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000262,POL000024,CUST00113,Home,Fire,2025-01-17,1654000,Approved,,Eligible,1649000
+CLM000263,POL000023,CUST00144,Home,Fire,2026-03-02,2977000,Settled,,Eligible,2972000
+CLM000264,POL000233,CUST00085,Home,Fire,2026-08-09,2199000,Documents Pending,,Eligible,2194000
+CLM000265,POL000166,CUST00074,Motor,Third-party Liability,2026-03-03,213500,Registered,,Eligible,213500
+CLM000266,POL000144,CUST00162,Motor,Theft,2026-05-15,173500,Under Review,,Eligible,173500
+CLM000267,POL000293,CUST00064,Motor,Theft,2026-10-12,80500,Settled,,Eligible,80500
+CLM000268,POL000115,CUST00005,Home,Water Damage,2026-07-06,208000,Documents Pending,,Eligible,203000
+CLM000269,POL000140,CUST00059,Motor,Theft,2026-04-29,43500,Payment Initiated,,Eligible,43500
+CLM000270,POL000021,CUST00180,Health,Hospitalisation,2026-02-04,714000,Under Review,,Eligible,714000
+CLM000271,POL000154,CUST00058,Health,Day-care Procedure,2026-07-02,153500,Settled,,Eligible,153500
+CLM000272,POL000208,CUST00036,Travel,Medical Emergency Abroad,2026-04-14,278500,Query Raised,Claim date outside policy period,Not Eligible,0
+CLM000273,POL000121,CUST00199,Home,Earthquake,2026-08-01,566000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000274,POL000269,CUST00083,Motor,Accidental Damage,2026-01-27,74000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000275,POL000196,CUST00183,Home,Earthquake,2025-02-11,505000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000276,POL000200,CUST00022,Health,Hospitalisation,2026-04-28,476500,Under Review,,Eligible,476500
+CLM000277,POL000036,CUST00003,Travel,Adventure Sports,2024-10-12,129500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000278,POL000136,CUST00170,Motor,Accidental Damage,2026-09-07,585000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000279,POL000034,CUST00159,Motor,Third-party Liability,2025-08-14,681000,Registered,,Eligible,681000
+CLM000280,POL000087,CUST00197,Health,Day-care Procedure,2026-03-13,356500,Approved,,Eligible,356500
+CLM000281,POL000210,CUST00091,Home,Water Damage,2024-11-01,1247500,Under Review,,Eligible,1242500
+CLM000282,POL000149,CUST00014,Health,Hospitalisation,2026-09-07,243500,Under Review,,Eligible,243500
+CLM000283,POL000148,CUST00196,Travel,Trip Cancellation,2025-03-31,571000,Query Raised,Claim date outside policy period,Not Eligible,0
+CLM000284,POL000222,CUST00110,Travel,Baggage Loss,2025-02-17,1582000,Documents Pending,,Eligible - payout capped,1484000
+CLM000285,POL000013,CUST00159,Health,Day-care Procedure,2026-07-10,406000,Approved,,Eligible,406000
+CLM000286,POL000032,CUST00125,Health,Day-care Procedure,2026-06-21,469500,Registered,Within waiting period of 30 days,Not Eligible,0
+CLM000287,POL000009,CUST00158,Motor,Consequential Loss,2026-10-01,127000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000288,POL000260,CUST00060,Travel,Medical Emergency Abroad,2026-09-07,134000,Surveyor Assigned,,Eligible,134000
+CLM000289,POL000289,CUST00011,Motor,Third-party Liability,2026-03-17,111000,Under Review,,Eligible,111000
+CLM000290,POL000181,CUST00162,Travel,Trip Cancellation,2025-05-24,1501000,Registered,,Eligible,1498500
+CLM000291,POL000084,CUST00007,Motor,Natural Calamity,2025-12-16,291000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000292,POL000238,CUST00152,Health,Cosmetic Surgery,2025-02-14,408000,Registered,Claim type excluded under policy terms,Not Eligible,0
+CLM000293,POL000177,CUST00126,Home,Fire,2026-07-27,1031500,Under Review,,Eligible,1026500
+CLM000294,POL000063,CUST00004,Motor,Third-party Liability,2026-10-02,229000,Under Review,,Eligible,229000
+CLM000295,POL000068,CUST00088,Motor,Theft,2026-08-05,326500,Settled,,Eligible,326500
+CLM000296,POL000230,CUST00174,Health,Dental,2025-12-21,415000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000297,POL000241,CUST00128,Travel,Baggage Loss,2024-10-07,280500,Under Review,,Eligible,279500
+CLM000298,POL000197,CUST00119,Health,Hospitalisation,2026-09-08,562500,Under Review,,Eligible,562500
+CLM000299,POL000141,CUST00030,Motor,Theft,2026-10-03,15000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000300,POL000028,CUST00002,Home,Water Damage,2026-08-21,1808500,Registered,,Eligible,1803500
+CLM000301,POL000066,CUST00162,Home,Water Damage,2025-08-18,1326500,Payment Initiated,,Eligible,1321500
+CLM000302,POL000148,CUST00196,Travel,Trip Cancellation,2025-02-02,265000,Settled,,Eligible,262500
+CLM000303,POL000145,CUST00099,Motor,Accidental Damage,2026-07-18,122000,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000304,POL000076,CUST00022,Travel,Baggage Loss,2025-10-22,181500,Under Review,,Eligible,180500
+CLM000305,POL000042,CUST00182,Motor,Theft,2025-06-09,218000,Documents Pending,,Eligible,218000
+CLM000306,POL000147,CUST00148,Motor,Natural Calamity,2026-05-14,17000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000307,POL000226,CUST00067,Home,Earthquake,2026-10-09,2384000,Under Review,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000308,POL000042,CUST00182,Motor,Accidental Damage,2025-06-23,714000,Settled,,Eligible,712000
+CLM000309,POL000070,CUST00112,Travel,Medical Emergency Abroad,2025-04-26,699000,Approved,,Eligible,699000
+CLM000310,POL000174,CUST00092,Motor,Natural Calamity,2025-11-26,412000,Surveyor Assigned,,Eligible,410000
+CLM000311,POL000311,CUST00198,Motor,Accidental Damage,2026-08-25,418000,Registered,,Eligible,416000
+CLM000312,POL000149,CUST00014,Health,Hospitalisation,2026-09-06,575000,Rejected,Within waiting period of 30 days (non-accident),Not Eligible,0
+CLM000313,POL000195,CUST00150,Health,Hospitalisation,2026-10-12,127000,Payment Initiated,,Eligible,127000
+CLM000314,POL000226,CUST00067,Home,Water Damage,2026-10-10,3574000,Settled,,Eligible,3569000
+CLM000315,POL000157,CUST00084,Health,Hospitalisation,2025-04-10,397000,Settled,,Eligible,397000
+CLM000316,POL000187,CUST00096,Health,Hospitalisation,2025-11-20,288000,Query Raised,Claim date outside policy period,Not Eligible,0
+CLM000317,POL000119,CUST00041,Motor,Theft,2026-09-02,90500,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000318,POL000249,CUST00150,Home,Earthquake,2026-08-09,1925500,Settled,,Eligible,1915500
+CLM000319,POL000245,CUST00064,Health,Maternity,2026-10-12,446000,Under Review,Within waiting period of 730 days; Maternity not covered on Basic plan,Not Eligible,0
+CLM000320,POL000063,CUST00004,Motor,Natural Calamity,2026-03-25,296000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000321,POL000095,CUST00085,Travel,Trip Cancellation,2026-09-01,81000,Approved,,Eligible,78500
+CLM000322,POL000273,CUST00147,Home,Fire,2026-08-12,3169500,Approved,,Eligible,3164500
+CLM000323,POL000305,CUST00161,Home,Fire,2026-07-04,498000,Registered,,Eligible,493000
+CLM000324,POL000102,CUST00113,Motor,Consequential Loss,2026-03-20,85500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000325,POL000135,CUST00044,Health,Hospitalisation,2025-01-21,368500,Documents Pending,,Eligible,368500
+CLM000326,POL000287,CUST00171,Health,Day-care Procedure,2026-03-24,109500,Under Review,,Eligible,109500
+CLM000327,POL000012,CUST00093,Motor,Accidental Damage,2026-06-29,309000,Settled,,Eligible,307000
+CLM000328,POL000114,CUST00032,Home,Gradual Deterioration,2026-09-19,141000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000329,POL000272,CUST00042,Motor,Consequential Loss,2025-06-30,412000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000330,POL000147,CUST00148,Motor,Third-party Liability,2025-10-05,20500,Settled,,Eligible,20500
+CLM000331,POL000070,CUST00112,Travel,Baggage Loss,2025-04-27,1316000,Documents Pending,,Eligible,1315000
+CLM000332,POL000198,CUST00092,Travel,Baggage Loss,2026-09-11,640000,Settled,,Eligible,639000
+CLM000333,POL000116,CUST00074,Travel,Baggage Loss,2025-10-07,629500,Settled,,Eligible - payout capped,584000
+CLM000334,POL000275,CUST00156,Motor,Natural Calamity,2026-10-04,132000,Payment Initiated,,Eligible,130000
+CLM000335,POL000012,CUST00093,Motor,Theft,2026-05-21,42000,Approved,,Eligible,42000
+CLM000336,POL000222,CUST00110,Travel,Trip Cancellation,2025-02-17,141500,Under Review,,Eligible,139000
+CLM000337,POL000316,CUST00034,Health,Hospitalisation,2026-05-30,515000,Settled,,Eligible,515000
+CLM000338,POL000152,CUST00006,Travel,Medical Emergency Abroad,2024-11-16,300000,Settled,,Eligible,300000
+CLM000339,POL000296,CUST00172,Travel,Baggage Loss,2025-02-12,345500,Documents Pending,,Eligible,344500
+CLM000340,POL000009,CUST00158,Motor,Theft,2026-10-12,195000,Documents Pending,,Eligible,195000
+CLM000341,POL000293,CUST00064,Motor,Theft,2026-04-04,148000,Settled,,Eligible,148000
+CLM000342,POL000049,CUST00173,Motor,Third-party Liability,2026-05-11,239500,Approved,,Eligible,239500
+CLM000343,POL000152,CUST00006,Travel,Trip Cancellation,2024-11-24,85000,Documents Pending,,Eligible,82500
+CLM000344,POL000071,CUST00121,Motor,Accidental Damage,2025-12-30,541500,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000345,POL000200,CUST00022,Health,Maternity,2026-04-11,314500,Query Raised,Within waiting period of 730 days,Not Eligible,0
+CLM000346,POL000216,CUST00007,Home,Burglary,2024-12-14,197500,Settled,,Eligible,192500
+CLM000347,POL000172,CUST00042,Motor,Theft,2025-10-27,341000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000348,POL000242,CUST00049,Home,Gradual Deterioration,2026-09-19,793500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000349,POL000040,CUST00138,Motor,Accidental Damage,2025-06-16,623500,Under Review,,Eligible,621500
+CLM000350,POL000222,CUST00110,Travel,Medical Emergency Abroad,2025-02-14,659000,Documents Pending,,Eligible,659000
+CLM000351,POL000034,CUST00159,Motor,Third-party Liability,2025-06-04,544500,Surveyor Assigned,,Eligible,544500
+CLM000352,POL000188,CUST00153,Health,Hospitalisation,2026-09-17,1052000,Documents Pending,,Eligible,1052000
+CLM000353,POL000103,CUST00075,Health,Pre-existing Condition,2026-09-05,526500,Registered,Within waiting period of 1095 days,Not Eligible,0
+CLM000354,POL000113,CUST00063,Motor,Theft,2025-01-05,29000,Settled,,Eligible,29000
+CLM000355,POL000272,CUST00042,Motor,Accidental Damage,2024-11-24,102500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000356,POL000040,CUST00138,Motor,Accidental Damage,2026-02-01,507500,Settled,,Eligible,505500
+CLM000357,POL000254,CUST00065,Home,Gradual Deterioration,2026-10-12,1717500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000358,POL000228,CUST00141,Motor,Natural Calamity,2026-08-28,226000,Under Review,,Eligible,224000
+CLM000359,POL000093,CUST00157,Motor,Theft,2025-06-08,124500,Surveyor Assigned,,Eligible,124500
+CLM000360,POL000015,CUST00026,Motor,Accidental Damage,2026-10-12,45000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000361,POL000173,CUST00103,Motor,Theft,2026-09-10,48500,Under Review,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000362,POL000318,CUST00143,Home,Water Damage,2026-07-03,751000,Settled,,Eligible,746000
+CLM000363,POL000186,CUST00186,Health,Pre-existing Condition,2026-08-09,316500,Query Raised,Within waiting period of 1095 days,Not Eligible,0
+CLM000364,POL000174,CUST00092,Motor,Natural Calamity,2026-04-22,279500,Under Review,,Eligible,277500
+CLM000365,POL000063,CUST00004,Motor,Theft,2026-04-29,228000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000366,POL000301,CUST00148,Health,Dental,2026-06-30,57500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000367,POL000050,CUST00044,Motor,Theft,2026-07-30,213000,Registered,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000368,POL000096,CUST00054,Travel,Baggage Loss,2025-07-24,167500,Under Review,,Eligible,166500
+CLM000369,POL000268,CUST00191,Travel,Trip Cancellation,2026-03-06,1021000,Under Review,,Eligible,1018500
+CLM000370,POL000236,CUST00041,Motor,Theft,2026-07-30,423000,Documents Pending,,Eligible,423000
+CLM000371,POL000223,CUST00130,Health,Hospitalisation,2025-12-08,206000,Documents Pending,,Eligible,206000
+CLM000372,POL000036,CUST00003,Travel,Trip Cancellation,2024-10-14,127000,Documents Pending,,Eligible,124500
+CLM000373,POL000035,CUST00197,Health,Dental,2026-05-19,136500,Under Review,Policy lapsed due to unpaid premium; Claim type excluded under policy terms,Not Eligible,0
+CLM000374,POL000139,CUST00116,Home,Burglary,2026-07-25,2237000,Under Review,,Eligible,2232000
+CLM000375,POL000206,CUST00167,Motor,Natural Calamity,2025-04-30,575000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000376,POL000280,CUST00152,Health,Hospitalisation,2025-07-03,272500,Surveyor Assigned,,Eligible,272500
+CLM000377,POL000302,CUST00169,Travel,Medical Emergency Abroad,2025-03-19,321000,Surveyor Assigned,,Eligible,321000
+CLM000378,POL000078,CUST00180,Home,Fire,2026-07-12,3961000,Approved,,Eligible,3956000
+CLM000379,POL000169,CUST00086,Home,Fire,2025-10-16,1799500,Approved,,Eligible,1794500
+CLM000380,POL000133,CUST00150,Health,Day-care Procedure,2025-05-10,282500,Under Review,Claim date outside policy period,Not Eligible,0
+CLM000381,POL000131,CUST00003,Motor,Wear and Tear,2025-10-03,301500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000382,POL000047,CUST00133,Motor,Natural Calamity,2026-03-19,224000,Documents Pending,,Eligible,222000
+CLM000383,POL000119,CUST00041,Motor,Third-party Liability,2026-10-02,81500,Documents Pending,,Eligible,81500
+CLM000384,POL000050,CUST00044,Motor,Accidental Damage,2026-08-03,150500,Rejected,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000385,POL000006,CUST00128,Motor,Theft,2026-09-30,193000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000386,POL000211,CUST00189,Home,Water Damage,2026-10-10,1676000,Surveyor Assigned,,Eligible,1671000
+CLM000387,POL000303,CUST00083,Home,Burglary,2026-07-20,3533500,Surveyor Assigned,,Eligible,3528500
+CLM000388,POL000051,CUST00179,Health,Hospitalisation,2026-02-07,131000,Settled,,Eligible,131000
+CLM000389,POL000028,CUST00002,Home,Earthquake,2026-06-22,342500,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000390,POL000179,CUST00155,Health,Day-care Procedure,2026-09-09,814500,Registered,Within waiting period of 30 days,Not Eligible,0
+CLM000391,POL000184,CUST00059,Home,Fire,2026-09-23,269500,Registered,,Eligible,264500
+CLM000392,POL000259,CUST00007,Motor,Theft,2025-11-23,149000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000393,POL000188,CUST00153,Health,Day-care Procedure,2026-03-14,554500,Settled,,Eligible,554500
+CLM000394,POL000120,CUST00007,Travel,Medical Emergency Abroad,2024-07-18,701000,Registered,,Eligible,701000
+CLM000395,POL000129,CUST00142,Motor,Third-party Liability,2026-08-14,426500,Documents Pending,,Eligible,426500
+CLM000396,POL000081,CUST00133,Home,Earthquake,2026-07-09,2872000,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000397,POL000128,CUST00043,Health,Pre-existing Condition,2026-10-03,513500,Rejected,Within waiting period of 1095 days,Not Eligible,0
+CLM000398,POL000289,CUST00011,Motor,Third-party Liability,2026-04-11,274000,Documents Pending,,Eligible,274000
+CLM000399,POL000205,CUST00167,Health,Hospitalisation,2026-10-12,338500,Settled,,Eligible,338500
+CLM000400,POL000031,CUST00099,Travel,Trip Cancellation,2024-10-22,340000,Documents Pending,,Eligible,337500
+CLM000401,POL000129,CUST00142,Motor,Natural Calamity,2026-07-15,59500,Under Review,,Eligible,57500
+CLM000402,POL000247,CUST00015,Health,Day-care Procedure,2026-05-18,39000,Payment Initiated,,Eligible,39000
+CLM000403,POL000076,CUST00022,Travel,Baggage Loss,2025-10-11,729000,Surveyor Assigned,,Eligible - payout capped,569000
+CLM000404,POL000163,CUST00101,Travel,Trip Cancellation,2025-08-21,307000,Under Review,,Eligible,304500
+CLM000405,POL000310,CUST00010,Home,Fire,2026-08-31,268000,Settled,,Eligible,263000
+CLM000406,POL000122,CUST00120,Motor,Natural Calamity,2026-08-27,57000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000407,POL000153,CUST00049,Motor,Accidental Damage,2026-10-12,39500,Under Review,,Eligible,37500
+CLM000408,POL000147,CUST00148,Motor,Theft,2026-06-05,419500,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000409,POL000015,CUST00026,Motor,Accidental Damage,2026-07-01,116000,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000410,POL000169,CUST00086,Home,Burglary,2026-01-28,1388500,Payment Initiated,,Eligible,1383500
+CLM000411,POL000059,CUST00150,Motor,Consequential Loss,2026-10-12,120000,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000412,POL000266,CUST00037,Motor,Accidental Damage,2026-02-07,264000,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000413,POL000081,CUST00133,Home,Fire,2026-09-08,1009500,Under Review,,Eligible,1004500
+CLM000414,POL000131,CUST00003,Motor,Consequential Loss,2025-08-20,417500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000415,POL000026,CUST00048,Health,Cosmetic Surgery,2026-06-10,383500,Rejected,Claim type excluded under policy terms,Not Eligible,0
+CLM000416,POL000239,CUST00023,Health,Day-care Procedure,2026-09-20,527000,Registered,,Eligible,527000
+CLM000417,POL000128,CUST00043,Health,Day-care Procedure,2026-10-12,510000,Rejected,Within waiting period of 30 days,Not Eligible,0
+CLM000418,POL000234,CUST00051,Travel,Baggage Loss,2026-10-12,1122500,Under Review,,Eligible,1121500
+CLM000419,POL000038,CUST00092,Home,Water Damage,2026-06-16,818500,Settled,,Eligible,813500
+CLM000420,POL000075,CUST00042,Health,Hospitalisation,2025-11-22,88500,Documents Pending,,Eligible,88500
+CLM000421,POL000075,CUST00042,Health,Dental,2025-11-05,417500,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000422,POL000275,CUST00156,Motor,Theft,2026-06-17,74000,Under Review,,Eligible,74000
+CLM000423,POL000150,CUST00172,Motor,Third-party Liability,2026-07-28,64500,Under Review,,Eligible,64500
+CLM000424,POL000038,CUST00092,Home,Earthquake,2026-03-11,3043500,Rejected,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000425,POL000266,CUST00037,Motor,Third-party Liability,2026-07-12,215000,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000426,POL000243,CUST00085,Home,Fire,2025-11-14,1425000,Settled,,Eligible,1420000
+CLM000427,POL000086,CUST00015,Motor,Theft,2026-05-21,19000,Payment Initiated,,Eligible,19000
+CLM000428,POL000228,CUST00141,Motor,Accidental Damage,2025-11-10,387000,Settled,,Eligible,385000
+CLM000429,POL000094,CUST00087,Motor,Theft,2026-09-14,199500,Settled,,Eligible,199500
+CLM000430,POL000129,CUST00142,Motor,Accidental Damage,2026-06-04,362500,Under Review,,Eligible,360500
+CLM000431,POL000186,CUST00186,Health,Hospitalisation,2026-06-17,354500,Documents Pending,,Eligible,354500
+CLM000432,POL000154,CUST00058,Health,Hospitalisation,2025-11-13,110500,Approved,,Eligible,110500
+CLM000433,POL000290,CUST00017,Motor,Accidental Damage,2026-08-17,354000,Registered,,Eligible,352000
+CLM000434,POL000315,CUST00028,Health,Hospitalisation,2026-08-13,161000,Payment Initiated,,Eligible,161000
+CLM000435,POL000113,CUST00063,Motor,Natural Calamity,2025-09-16,131000,Under Review,Claim date outside policy period,Not Eligible,0
+CLM000436,POL000001,CUST00164,Motor,Natural Calamity,2026-09-10,683000,Settled,,Eligible,681000
+CLM000437,POL000054,CUST00083,Health,Hospitalisation,2026-07-29,49000,Settled,,Eligible,49000
+CLM000438,POL000015,CUST00026,Motor,Accidental Damage,2026-08-05,42000,Under Review,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000439,POL000250,CUST00148,Health,Day-care Procedure,2026-05-26,112000,Under Review,,Eligible,112000
+CLM000440,POL000298,CUST00187,Home,Earthquake,2026-03-25,1640000,Settled,,Eligible,1630000
+CLM000441,POL000306,CUST00042,Motor,Theft,2026-09-15,54000,Approved,,Eligible,54000
+CLM000442,POL000007,CUST00129,Motor,Accidental Damage,2025-12-24,255500,Under Review,Claim date outside policy period; Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000443,POL000056,CUST00092,Travel,Trip Cancellation,2026-01-08,1852500,Surveyor Assigned,,Eligible,1850000
+CLM000444,POL000228,CUST00141,Motor,Natural Calamity,2026-03-11,53000,Settled,,Eligible,51000
+CLM000445,POL000298,CUST00187,Home,Earthquake,2025-10-30,4333500,Surveyor Assigned,,Eligible,4323500
+CLM000446,POL000090,CUST00172,Home,Fire,2025-01-10,1159500,Documents Pending,,Eligible,1154500
+CLM000447,POL000217,CUST00191,Home,Water Damage,2026-07-14,570000,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000448,POL000250,CUST00148,Health,Maternity,2026-07-11,69500,Rejected,Within waiting period of 730 days,Not Eligible,0
+CLM000449,POL000030,CUST00088,Health,Maternity,2026-02-17,281000,Query Raised,Claim date outside policy period; Within waiting period of 730 days,Not Eligible,0
+CLM000450,POL000128,CUST00043,Health,Dental,2026-09-28,265000,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000451,POL000213,CUST00098,Home,Fire,2026-01-18,206000,Documents Pending,,Eligible,201000
+CLM000452,POL000092,CUST00078,Health,Day-care Procedure,2026-07-24,74000,Rejected,Within waiting period of 30 days,Not Eligible,0
+CLM000453,POL000154,CUST00058,Health,Day-care Procedure,2026-06-22,187500,Documents Pending,,Eligible,187500
+CLM000454,POL000128,CUST00043,Health,Day-care Procedure,2026-09-21,82000,Rejected,Within waiting period of 30 days,Not Eligible,0
+CLM000455,POL000093,CUST00157,Motor,Accidental Damage,2025-10-05,459500,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000456,POL000012,CUST00093,Motor,Third-party Liability,2026-09-06,320000,Settled,,Eligible,320000
+CLM000457,POL000238,CUST00152,Health,Day-care Procedure,2025-08-13,158000,Settled,,Eligible,158000
+CLM000458,POL000065,CUST00046,Health,Hospitalisation,2026-08-23,473500,Registered,,Eligible,473500
+CLM000459,POL000171,CUST00028,Home,Fire,2026-09-05,3561500,Settled,,Eligible,3556500
+CLM000460,POL000226,CUST00067,Home,Water Damage,2026-10-06,157500,Registered,,Eligible,152500
+CLM000461,POL000017,CUST00103,Motor,Third-party Liability,2026-09-11,91000,Settled,,Eligible,91000
+CLM000462,POL000232,CUST00036,Motor,Natural Calamity,2025-11-09,103000,Documents Pending,,Eligible,101000
+CLM000463,POL000007,CUST00129,Motor,Theft,2025-12-27,316500,Rejected,Claim date outside policy period; Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000464,POL000308,CUST00101,Health,Day-care Procedure,2026-06-22,129500,Under Review,Policy lapsed due to unpaid premium,Not Eligible,0
+CLM000465,POL000194,CUST00042,Motor,Third-party Liability,2026-05-31,124500,Under Review,,Eligible,124500
+CLM000466,POL000304,CUST00121,Travel,Adventure Sports,2025-09-20,38500,Under Review,Claim type excluded under policy terms,Not Eligible,0
+CLM000467,POL000132,CUST00006,Health,Hospitalisation,2026-01-17,396500,Registered,,Eligible,396500
+CLM000468,POL000186,CUST00186,Health,Day-care Procedure,2026-10-12,219000,Registered,,Eligible,219000
+CLM000469,POL000202,CUST00181,Health,Day-care Procedure,2026-07-15,132000,Settled,,Eligible,132000
+CLM000470,POL000053,CUST00060,Travel,Medical Emergency Abroad,2025-04-10,936000,Documents Pending,,Eligible,936000
+CLM000471,POL000307,CUST00066,Motor,Natural Calamity,2024-08-31,10500,Rejected,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000472,POL000247,CUST00015,Health,Hospitalisation,2026-10-12,156500,Under Review,,Eligible,156500
+CLM000473,POL000016,CUST00105,Home,Earthquake,2026-02-22,3256000,Query Raised,Earthquake covered only on Premium plan,Not Eligible,0
+CLM000474,POL000237,CUST00012,Motor,Third-party Liability,2026-09-15,148000,Under Review,,Eligible,148000
+CLM000475,POL000023,CUST00144,Home,Earthquake,2025-11-16,1823500,Documents Pending,,Eligible,1813500
+CLM000476,POL000138,CUST00107,Motor,Wear and Tear,2026-10-12,310000,Query Raised,Claim type excluded under policy terms,Not Eligible,0
+CLM000477,POL000070,CUST00112,Travel,Baggage Loss,2025-05-05,307000,Approved,,Eligible,306000
+CLM000478,POL000245,CUST00064,Health,Maternity,2026-08-26,81000,Registered,Within waiting period of 730 days; Maternity not covered on Basic plan,Not Eligible,0
+CLM000479,POL000097,CUST00191,Travel,Medical Emergency Abroad,2026-02-04,132000,Under Review,,Eligible,132000
+CLM000480,POL000101,CUST00041,Health,Day-care Procedure,2025-05-10,117000,Approved,,Eligible,117000
+CLM000481,POL000086,CUST00015,Motor,Accidental Damage,2025-11-15,252500,Under Review,,Eligible,250500
+CLM000482,POL000061,CUST00093,Health,Hospitalisation,2026-10-07,845500,Approved,,Eligible,845500
+CLM000483,POL000020,CUST00055,Motor,Natural Calamity,2026-03-15,299500,Registered,,Eligible,297500
+CLM000484,POL000009,CUST00158,Motor,Accidental Damage,2026-10-03,9500,Documents Pending,,Eligible,7500
+CLM000485,POL000242,CUST00049,Home,Burglary,2026-10-05,499500,Under Review,,Eligible,494500
+CLM000486,POL000053,CUST00060,Travel,Baggage Loss,2025-04-23,690500,Documents Pending,,Eligible,689500
+CLM000487,POL000060,CUST00169,Travel,Baggage Loss,2025-04-17,343000,Approved,,Eligible,342000
+CLM000488,POL000278,CUST00105,Health,Day-care Procedure,2025-06-28,498000,Settled,,Eligible,498000
+CLM000489,POL000129,CUST00142,Motor,Theft,2026-06-22,224500,Documents Pending,,Eligible,224500
+CLM000490,POL000020,CUST00055,Motor,Accidental Damage,2026-06-28,141500,Surveyor Assigned,,Eligible,139500
+CLM000491,POL000034,CUST00159,Motor,Theft,2026-02-04,86500,Query Raised,Own-damage cover not available on Third-Party plan,Not Eligible,0
+CLM000492,POL000243,CUST00085,Home,Burglary,2026-10-12,733000,Rejected,Claim date outside policy period,Not Eligible,0
+CLM000493,POL000168,CUST00198,Travel,Trip Cancellation,2024-07-28,159000,Under Review,,Eligible,156500
+CLM000494,POL000251,CUST00094,Travel,Medical Emergency Abroad,2026-03-20,473000,Under Review,,Eligible,473000
+CLM000495,POL000112,CUST00005,Motor,Theft,2025-12-14,261500,Payment Initiated,,Eligible,261500
+CLM000496,POL000177,CUST00126,Home,Earthquake,2026-07-11,191000,Approved,,Eligible,181000
+CLM000497,POL000241,CUST00128,Travel,Trip Cancellation,2024-10-02,447500,Settled,,Eligible,445000
+CLM000498,POL000110,CUST00055,Home,Earthquake,2026-04-19,495500,Settled,,Eligible,485500
+CLM000499,POL000091,CUST00129,Health,Day-care Procedure,2025-09-29,857500,Surveyor Assigned,,Eligible,857500
+CLM000500,POL000277,CUST00111,Home,Fire,2026-06-14,331500,Settled,,Eligible,326500

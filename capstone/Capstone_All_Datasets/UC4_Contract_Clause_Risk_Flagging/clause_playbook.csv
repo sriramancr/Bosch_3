@@ -1,0 +1,13 @@
+clause_category,standard_position,acceptable_range,red_flag_triggers,default_risk_if_deviates
+Termination for Convenience,Either party may terminate on 60 days' written notice.,"30 to 90 days' notice, mutual","Unilateral termination right for counterparty only, or notice under 30 days",High
+Termination for Cause,Termination for uncured material breach after a 30-day cure period.,15 to 45 day cure period,"No cure period, or cure period over 60 days",Medium
+Limitation of Liability,Liability capped at 12 months of fees paid or payable; mutual; excludes indirect and consequential loss.,Cap of 12 to 24 months of fees,"Unlimited liability for our side, cap below 6 months of fees, or one-sided cap",High
+Indemnification,Mutual indemnity for third-party IP infringement and breach of confidentiality; capped by the liability cap.,Mutual; may be uncapped only for IP infringement,"One-sided indemnity, or broad first-party indemnity for all losses",High
+Confidentiality,Mutual obligations for 3 years after termination; standard exclusions.,2 to 5 years; trade secrets perpetual,"Perpetual for all information, or no exclusions, or one-sided",Medium
+Intellectual Property,Each party retains pre-existing IP; deliverables owned by the client on full payment.,Licence instead of assignment for vendor tools,"Assignment of our pre-existing IP, or vendor owns all deliverables",High
+Payment Terms,Net 45 days from invoice receipt; late interest not exceeding 1% per month.,Net 30 to Net 60,"Net under 30 days, or late interest above 1.5% per month",Medium
+Governing Law and Jurisdiction,Laws of India; courts at Mumbai; arbitration under the Arbitration and Conciliation Act as an option.,Any Indian jurisdiction; neutral arbitration seat,Foreign law or foreign courts without neutral arbitration,Medium
+Data Protection,"Processor obligations, breach notification within 72 hours, deletion on termination.",Breach notice within 24 to 96 hours,"No breach notice, no deletion obligation, or free transfer abroad",High
+Assignment,"No assignment without prior written consent, except to affiliates or on merger with notice.",Consent not unreasonably withheld,Counterparty may assign freely while we cannot,Low
+Auto-Renewal,Renewal only by written agreement; any auto-renewal needs 60 days' opt-out notice.,30 to 90 day opt-out window,Auto-renewal for multi-year terms with under 30 days' opt-out,Medium
+Force Majeure,Mutual relief for events beyond reasonable control; termination right after 60 days.,45 to 90 days,"One-sided relief, or no termination right",Low

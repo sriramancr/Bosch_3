@@ -1,0 +1,9 @@
+trial_id,file,drug,condition,publication_year,participants,primary_endpoint,drug_result,placebo_result,key_adverse_event,ae_rate_drug_pct,ae_rate_placebo_pct
+TRIAL-01,TRIAL-01_Velotrin_VLT_Phase3.pdf,Velotrin,type 2 diabetes,2024,642,HbA1c change from baseline at week 26,-1.18,-0.41,genital mycotic infection,6.2,1.9
+TRIAL-02,TRIAL-02_Cardimexa_CDX_Phase3.pdf,Cardimexa,heart failure with reduced ejection fraction,2026,1820,composite of cardiovascular death or HF hospitalisation,0.79,1.0,symptomatic hypotension,11.4,7.1
+TRIAL-03,TRIAL-03_Neurosyn_NSN_Phase3.pdf,Neurosyn,relapsing multiple sclerosis,2025,904,annualised relapse rate,0.21,0.38,injection-site reaction,18.3,6.0
+TRIAL-04,TRIAL-04_Pulmora_PLM_Phase3.pdf,Pulmora,moderate-to-severe asthma,2026,731,annual exacerbation rate,0.62,1.04,nasopharyngitis,14.8,12.2
+TRIAL-05,TRIAL-05_Oncovex_OVX_Phase3.pdf,Oncovex,HER2-low metastatic breast cancer,2023,512,progression-free survival (months),9.6,5.1,neutropenia grade 3+,21.7,9.4
+TRIAL-06,TRIAL-06_Lipidara_LPD_Phase3.pdf,Lipidara,heterozygous familial hypercholesterolaemia,2026,388,LDL-C percent change at day 90,-51.0,-2.5,injection-site pain,7.9,3.1
+TRIAL-07,TRIAL-07_Dermacalm_DMC_Phase3.pdf,Dermacalm,moderate atopic dermatitis,2026,567,EASI-75 response at week 8,58.0,24.0,application-site burning,9.1,4.7
+TRIAL-08,TRIAL-08_Renalix_RNX_Phase3.pdf,Renalix,chronic kidney disease with albuminuria,2026,1450,eGFR slope (mL/min/1.73m2 per year),-1.9,-3.4,fluid retention,12.6,6.8

@@ -1,0 +1,41 @@
+candidate_id,name,role_family,total_years,skills,institution,institution_tier,city,gender_audit_only,cgpa
+CAND-001,Meera Nair,Frontend Engineer,2,HTML;JavaScript;Git;CSS;Tailwind;Figma;Webpack;Jest,Indian Institute of Technology (Synthetic),1,Chennai,F,8.2
+CAND-002,Ananya Gupta,Backend Engineer,2,Spring Boot;Git;Microservices;REST APIs;Java;SQL;Node.js;Kafka;PostgreSQL,Indian Institute of Technology (Synthetic),1,Ahmedabad,F,6.9
+CAND-003,Meera Khan,QA Engineer,3,Selenium;Python;JIRA;SQL;API Testing;Test Automation;Pytest,Western College of Science,2,Ahmedabad,F,7.9
+CAND-004,Lakshmi Khan,QA Engineer,6,Python;Selenium;API Testing;Pytest;Cypress;JMeter;CI/CD,Western College of Science,2,Mumbai,F,8.4
+CAND-005,Shreya Verma,Backend Engineer,3,Git;SQL;REST APIs;Microservices;Kafka;PostgreSQL;Node.js;AWS,Western College of Science,2,Bengaluru,F,7.7
+CAND-006,Vikram Krishnan,QA Engineer,1,API Testing;SQL;JIRA;Python;Pytest;Postman,Western College of Science,2,Delhi NCR,M,6.6
+CAND-007,Aisha Nair,Data Scientist,2,Statistics;Machine Learning;scikit-learn;MLflow,Metro Engineering College,2,Kochi,F,8.0
+CAND-008,Sneha Nair,Backend Engineer,5,Microservices;Java;REST APIs;Spring Boot;Git;Kafka;AWS;PostgreSQL,Metro Engineering College,2,Bengaluru,F,6.6
+CAND-009,Lakshmi Verma,Frontend Engineer,4,Git;JavaScript;React;TypeScript;CSS;HTML;Figma;Redux;Next.js,BITS-style Institute (Synthetic),1,Chennai,F,8.2
+CAND-010,Manoj Shetty,DevOps Engineer,5,AWS;Kubernetes;CI/CD;Linux;Docker;Jenkins;Python;SQL,Western College of Science,2,Chennai,M,7.4
+CAND-011,Meera Das,Backend Engineer,6,Microservices;Git;SQL;REST APIs;Java;Spring Boot;PostgreSQL;Redis;AWS,City University of Technology,2,Kochi,F,7.4
+CAND-012,Divya Menon,Frontend Engineer,4,Git;CSS;HTML;React;TypeScript;JavaScript;Jest,BITS-style Institute (Synthetic),1,Mumbai,F,7.3
+CAND-013,Vikram Reddy,Frontend Engineer,6,TypeScript;JavaScript;React;Next.js;Jest;Figma;Tailwind,Eastern Institute of Engineering,2,Bengaluru,M,8.5
+CAND-014,Aisha Menon,Data Scientist,10,Pandas;Statistics;Python;Machine Learning;scikit-learn;NLP,City University of Technology,2,Pune,F,9.4
+CAND-015,Naveen Sharma,Backend Engineer,6,Git;REST APIs;SQL;Spring Boot;Kubernetes;Docker;Redis,Indian Institute of Technology (Synthetic),1,Kochi,M,7.0
+CAND-016,Manoj Khan,Backend Engineer,5,Spring Boot;Microservices;Git;Docker;Kubernetes,Indian Institute of Technology (Synthetic),1,Hyderabad,M,7.8
+CAND-017,Lakshmi Patel,Backend Engineer,4,Spring Boot;Git;Java;AWS,Metro Engineering College,2,Ahmedabad,F,7.0
+CAND-018,Karthik Menon,Backend Engineer,8,REST APIs;Java;Microservices;Docker;AWS;Redis,Metro Engineering College,2,Kochi,M,8.6
+CAND-019,Dev Iyer,DevOps Engineer,3,Docker;Kubernetes;AWS;CI/CD;Linux;Terraform;Ansible;Grafana,City University of Technology,2,Chennai,M,6.4
+CAND-020,Arjun Shetty,QA Engineer,3,API Testing;Test Automation;Python;JIRA;Selenium;Cypress;JMeter;Git,Western College of Science,2,Chennai,M,8.0
+CAND-021,Divya Sharma,DevOps Engineer,12,AWS;Kubernetes;CI/CD;Terraform;Bash,Eastern Institute of Engineering,2,Pune,F,8.5
+CAND-022,Arjun Khan,QA Engineer,3,Selenium;API Testing;Python;Test Automation;CI/CD,National Institute of Technology (Synthetic),1,Ahmedabad,M,6.9
+CAND-023,Aisha Bose,Data Scientist,4,SQL;scikit-learn;Machine Learning;Pandas;Statistics;Spark;MLflow,Western College of Science,2,Hyderabad,F,9.3
+CAND-024,Divya Patel,Frontend Engineer,10,CSS;React;HTML;Webpack;Figma;Git,BITS-style Institute (Synthetic),1,Kochi,F,7.7
+CAND-025,Vikram Joshi,Frontend Engineer,8,TypeScript;React;JavaScript;Webpack;Figma,Indian Institute of Technology (Synthetic),1,Delhi NCR,M,8.8
+CAND-026,Ananya Sharma,DevOps Engineer,4,AWS;Linux;CI/CD;Terraform;Kubernetes;Docker;Jenkins;Python;Ansible;Grafana,Eastern Institute of Engineering,2,Hyderabad,F,8.6
+CAND-027,Rohan Joshi,DevOps Engineer,8,Terraform;Docker;Linux;Kubernetes;CI/CD;Python;Grafana;Prometheus;Git,Metro Engineering College,2,Chennai,M,7.4
+CAND-028,Rahul Nair,QA Engineer,2,JIRA;SQL;Test Automation;API Testing;Selenium;Pytest;Git,Indian Institute of Technology (Synthetic),1,Pune,M,7.9
+CAND-029,Vikram Bose,Frontend Engineer,1,JavaScript;React;CSS;TypeScript;HTML;Git;Jest,Eastern Institute of Engineering,2,Hyderabad,M,7.4
+CAND-030,Aditya Iyer,QA Engineer,10,Selenium;SQL;JIRA;API Testing;Python;Pytest,Metro Engineering College,2,Kochi,M,7.1
+CAND-031,Aisha Reddy,Data Scientist,2,SQL;Machine Learning;scikit-learn;Pandas;Statistics;LangChain;Tableau,City University of Technology,2,Ahmedabad,F,7.8
+CAND-032,Siddharth Sharma,Backend Engineer,8,Git;Microservices;Java;SQL;Node.js;Kafka;Redis,Indian Institute of Technology (Synthetic),1,Hyderabad,M,9.3
+CAND-033,Dev Verma,Backend Engineer,5,SQL;Microservices;Java;REST APIs;PostgreSQL;Node.js;Docker;Kubernetes,Metro Engineering College,2,Pune,M,8.0
+CAND-034,Vikram Khan,DevOps Engineer,8,AWS;Terraform;CI/CD;Kubernetes;Linux;Docker;Jenkins;Ansible;SQL,Metro Engineering College,2,Ahmedabad,M,9.1
+CAND-035,Riya Krishnan,Frontend Engineer,1,React;Git;HTML;TypeScript;CSS;Tailwind;Jest;Redux;Figma,National Institute of Technology (Synthetic),1,Bengaluru,F,7.2
+CAND-036,Imran Bose,Data Scientist,1,Python;Pandas;SQL;PyTorch;Tableau;NLP;LangChain,City University of Technology,2,Hyderabad,M,9.0
+CAND-037,Dev Nair,Frontend Engineer,4,HTML;JavaScript;CSS;TypeScript;Webpack;Tailwind;Figma,BITS-style Institute (Synthetic),1,Mumbai,M,6.8
+CAND-038,Riya Bose,Data Scientist,6,SQL;Machine Learning;Pandas;Statistics;scikit-learn;Python;Tableau,National Institute of Technology (Synthetic),1,Mumbai,F,8.5
+CAND-039,Dev Krishnan,Backend Engineer,5,REST APIs;SQL;Spring Boot;Microservices;Git;Node.js;PostgreSQL;Docker,Western College of Science,2,Chennai,M,8.5
+CAND-040,Meera Pillai,Data Scientist,1,SQL;Machine Learning;Python;scikit-learn;Statistics;NLP,Eastern Institute of Engineering,2,Pune,F,8.5

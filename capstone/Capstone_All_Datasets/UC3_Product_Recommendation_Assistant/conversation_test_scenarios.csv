@@ -1,0 +1,13 @@
+scenario_id,turn_1,turn_2,turn_3,primary_category,expected_filters_or_behaviour
+S01,I need running shoes under 5000,"Actually make it UK9, and prefer something lightweight",Which of these is in stock today?,Footwear,price<=5000; size=UK9; feature=lightweight; in_stock
+S02,Looking for a jacket for winter travel,"Budget around 4000, black or navy",Do you have it in size L?,Apparel,price<=4000; colors=black|navy; size=L
+S03,Need noise cancelling headphones,Under 10000 please,Which has the best rating?,Electronics,feature=active noise cancellation; price<=10000; sort=rating
+S04,Suggest a gift for my sister who does yoga,"Under 1500, something eco-friendly",Any with free fast delivery?,Fitness,sub=Yoga Mats; price<=1500; feature=eco-friendly; delivery=Express
+S05,Want an air fryer for a family of four,"Budget 8000, must be energy efficient",Is the cheapest one in stock?,Home & Kitchen,sub=Air Fryers; price<=8000; feature=energy efficient
+S06,Show me formal shoes for men,"Leather only, UK8",What is the discount on the first one?,Footwear,sub=Formal Shoes; gender=Men; material=Leather; size=UK8
+S07,Need a power bank for travel,At least 4.2 rating,Show cheaper options,Electronics,sub=Power Banks; rating>=4.2; sort=price
+S08,I want something for hot weather,"Cotton, casual, size M",Anything in linen instead?,Apparel,material=Cotton then Linen; style=Casual; size=M
+S09,Do you have a treadmill?,Under 25000,Out of stock? Show alternatives,Fitness,sub=Treadmills; price<=25000; fallback on out-of-stock
+S10,Cookware set for induction cooktop,"Stainless steel, under 3000",Compare the top two,Home & Kitchen,sub=Cookware; feature=induction compatible; material=Stainless Steel; price<=3000
+S11,Recommend a laptop,(out of catalog test),"Fine, show me headphones then",Electronics,Assistant must decline laptops - not in catalog - and redirect
+S12,Cheapest smartphone with fast charging,Brand Nexa or Pixelon only,Is it available for 1-day delivery?,Electronics,"sub=Smartphones; feature=fast charging; brand in (Nexa,Pixelon)"

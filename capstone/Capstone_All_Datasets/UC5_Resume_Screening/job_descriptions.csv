@@ -1,0 +1,6 @@
+jd_id,title,role_family,required_skills,min_years,summary
+JD01,Data Scientist - Fraud Analytics,Data Scientist,Python;SQL;Machine Learning;scikit-learn;Statistics,3,Build fraud detection models for a retail bank.
+JD02,Backend Engineer - Payments,Backend Engineer,Java;Spring Boot;Microservices;SQL;Kafka,4,Design payment services handling high transaction volumes.
+JD03,Senior Frontend Engineer,Frontend Engineer,JavaScript;React;TypeScript;CSS;Jest,5,Lead UI development for customer-facing web apps.
+JD04,DevOps Engineer - Cloud Platform,DevOps Engineer,Docker;Kubernetes;AWS;Terraform;CI/CD,3,Operate and scale the internal cloud platform.
+JD05,GenAI Engineer,Data Scientist,Python;LangChain;NLP;SQL;Machine Learning,2,Build LLM-powered assistants with retrieval pipelines.

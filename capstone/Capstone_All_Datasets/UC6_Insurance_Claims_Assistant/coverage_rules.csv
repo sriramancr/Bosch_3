@@ -1,0 +1,22 @@
+product,claim_type,covered,waiting_period_days,deductible_inr,max_payout_pct_of_sum_insured,terms_and_exclusions
+Health,Hospitalisation,Y,30,0,100,Waiting period 30 days from policy start except accidents
+Health,Day-care Procedure,Y,30,0,50,Listed procedures only
+Health,Maternity,Y,730,0,25,24-month waiting period; not covered on Basic plans
+Health,Pre-existing Condition,Y,1095,0,100,Covered only after 36 months of continuous coverage
+Health,Cosmetic Surgery,N,0,0,0,Excluded unless required after an accident or cancer treatment
+Health,Dental,N,0,0,0,Excluded unless arising from an accident
+Motor,Accidental Damage,Y,0,2000,100,Comprehensive plans only; drunk driving excluded
+Motor,Theft,Y,0,0,100,Comprehensive plans only; FIR mandatory
+Motor,Third-party Liability,Y,0,0,100,Covered under all motor plans; limited as per statute
+Motor,Natural Calamity,Y,0,2000,100,Comprehensive plans only
+Motor,Wear and Tear,N,0,0,0,"Normal wear, tear and mechanical breakdown excluded"
+Motor,Consequential Loss,N,0,0,0,Loss arising from engine damage due to water ingress without add-on excluded
+Home,Fire,Y,0,5000,100,Covered; arson by insured excluded
+Home,Burglary,Y,0,5000,100,"FIR mandatory; items must be listed above INR 1,00,000"
+Home,Water Damage,Y,0,5000,60,Sudden and accidental leakage only; gradual seepage excluded
+Home,Earthquake,Y,0,10000,100,Covered under Premium plan only
+Home,Gradual Deterioration,N,0,0,0,Excluded
+Travel,Medical Emergency Abroad,Y,0,0,100,Pre-existing conditions excluded
+Travel,Trip Cancellation,Y,0,2500,80,Covered for specified reasons only
+Travel,Baggage Loss,Y,0,1000,30,"Per-item cap INR 10,000"
+Travel,Adventure Sports,N,0,0,0,Excluded unless the Adventure add-on is purchased

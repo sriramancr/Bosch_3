@@ -1,0 +1,121 @@
+interaction_id,drug_a,drug_b,severity,mechanism,evidence_level,recommendation,last_reviewed_year
+DI-0001,Dermacalm,Statin-R,Minor,additive immunosuppression,Expert opinion,No action required; monitor as routine.,2024
+DI-0002,Cardimexa,Renalix,Major,QT prolongation,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0003,Dermacalm,Amlodex,Major,reduced renal clearance,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0004,Rifamex,Warfarin-X,Major,additive nephrotoxicity,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0005,Neurosyn,Lipidara,Major,additive hypotensive effect,Case reports,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0006,Velotrin,Clarithra,Major,additive hypotensive effect,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0007,Velotrin,Warfarin-X,Moderate,CYP3A4 inhibition raises plasma levels,In vitro / PK study,Monitor closely; consider dose adjustment.,2024
+DI-0008,Rifamex,Ketocon,Moderate,additive hypotensive effect,Case reports,Monitor closely; consider dose adjustment.,2023
+DI-0009,Statin-R,Pulmora,Major,additive hypotensive effect,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0010,Warfarin-X,Lisinoprex,Minor,displacement from plasma protein binding,Case reports,No action required; monitor as routine.,2024
+DI-0011,Loopdiuretic-F,Lisinoprex,Major,reduced renal clearance,Observational study,"Avoid combination where possible; if used, monitor intensively.",2024
+DI-0012,Clarithra,Statin-R,Major,additive immunosuppression,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0013,Lisinoprex,Dermacalm,Minor,additive hypotensive effect,In vitro / PK study,No action required; monitor as routine.,2025
+DI-0014,Lisinoprex,Amlodex,Minor,additive hypotensive effect,Case reports,No action required; monitor as routine.,2023
+DI-0015,Lisinoprex,Aspirin-L,Minor,CYP3A4 inhibition raises plasma levels,Expert opinion,No action required; monitor as routine.,2023
+DI-0016,Neurosyn,Pulmora,Minor,no clinically relevant mechanism identified,Randomised trial,No action required; monitor as routine.,2024
+DI-0017,Metrofen,Aspirin-L,Moderate,QT prolongation,Expert opinion,Monitor closely; consider dose adjustment.,2025
+DI-0018,Aspirin-L,Cardimexa,Major,additive nephrotoxicity,Case reports,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0019,Velotrin,Renalix,Minor,additive nephrotoxicity,Case reports,No action required; monitor as routine.,2025
+DI-0020,Velotrin,Aspirin-L,Minor,CYP3A4 induction lowers plasma levels,In vitro / PK study,No action required; monitor as routine.,2025
+DI-0021,Lipidara,Amlodex,Moderate,reduced renal clearance,In vitro / PK study,Monitor closely; consider dose adjustment.,2025
+DI-0022,Oncovex,Statin-R,Moderate,displacement from plasma protein binding,Observational study,Monitor closely; consider dose adjustment.,2025
+DI-0023,Cardimexa,Rifamex,Moderate,displacement from plasma protein binding,Observational study,Monitor closely; consider dose adjustment.,2023
+DI-0024,Oncovex,Renalix,Moderate,displacement from plasma protein binding,In vitro / PK study,Monitor closely; consider dose adjustment.,2023
+DI-0025,Warfarin-X,Renalix,Minor,additive hypotensive effect,In vitro / PK study,No action required; monitor as routine.,2025
+DI-0026,Lipidara,Lisinoprex,Minor,QT prolongation,Case reports,No action required; monitor as routine.,2024
+DI-0027,Amlodex,Cardimexa,Major,QT prolongation,In vitro / PK study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0028,Dermacalm,Metrofen,Contraindicated,CYP3A4 inhibition raises plasma levels,Randomised trial,Do not co-administer.,2024
+DI-0029,Rifamex,Neurosyn,Moderate,additive nephrotoxicity,Case reports,Monitor closely; consider dose adjustment.,2024
+DI-0030,Velotrin,Lipidara,Minor,no clinically relevant mechanism identified,Case reports,No action required; monitor as routine.,2024
+DI-0031,Dermacalm,Aspirin-L,Moderate,QT prolongation,Observational study,Monitor closely; consider dose adjustment.,2026
+DI-0032,Warfarin-X,Dermacalm,Moderate,additive nephrotoxicity,Expert opinion,Monitor closely; consider dose adjustment.,2025
+DI-0033,Metrofen,Cardimexa,Minor,no clinically relevant mechanism identified,Observational study,No action required; monitor as routine.,2024
+DI-0034,Loopdiuretic-F,Rifamex,Contraindicated,additive immunosuppression,Randomised trial,Do not co-administer.,2024
+DI-0035,Loopdiuretic-F,Ketocon,Minor,additive immunosuppression,Observational study,No action required; monitor as routine.,2023
+DI-0036,Metrofen,Pulmora,Major,additive hypotensive effect,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2024
+DI-0037,Pulmora,Loopdiuretic-F,Major,additive bleeding risk,Case reports,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0038,Rifamex,Aspirin-L,Moderate,additive hypotensive effect,Observational study,Monitor closely; consider dose adjustment.,2024
+DI-0039,Pulmora,Warfarin-X,Minor,additive immunosuppression,Observational study,No action required; monitor as routine.,2024
+DI-0040,Neurosyn,Lisinoprex,Major,displacement from plasma protein binding,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0041,Aspirin-L,Amlodex,Major,additive nephrotoxicity,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0042,Loopdiuretic-F,Neurosyn,Major,CYP3A4 inhibition raises plasma levels,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0043,Aspirin-L,Ketocon,Moderate,CYP3A4 induction lowers plasma levels,In vitro / PK study,Monitor closely; consider dose adjustment.,2025
+DI-0044,Amlodex,Warfarin-X,Major,additive hypotensive effect,Case reports,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0045,Lisinoprex,Pulmora,Major,CYP3A4 inhibition raises plasma levels,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0046,Lipidara,Rifamex,Moderate,CYP3A4 inhibition raises plasma levels,In vitro / PK study,Monitor closely; consider dose adjustment.,2026
+DI-0047,Statin-R,Lipidara,Moderate,reduced renal clearance,Randomised trial,Monitor closely; consider dose adjustment.,2023
+DI-0048,Pulmora,Dermacalm,Moderate,displacement from plasma protein binding,In vitro / PK study,Monitor closely; consider dose adjustment.,2025
+DI-0049,Metrofen,Loopdiuretic-F,Moderate,displacement from plasma protein binding,Randomised trial,Monitor closely; consider dose adjustment.,2026
+DI-0050,Dermacalm,Ketocon,Minor,QT prolongation,Case reports,No action required; monitor as routine.,2025
+DI-0051,Velotrin,Rifamex,Major,additive bleeding risk,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0052,Dermacalm,Velotrin,Minor,additive nephrotoxicity,Case reports,No action required; monitor as routine.,2023
+DI-0053,Renalix,Pulmora,Contraindicated,additive nephrotoxicity,In vitro / PK study,Do not co-administer.,2024
+DI-0054,Oncovex,Warfarin-X,Major,additive nephrotoxicity,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0055,Ketocon,Pulmora,Minor,additive immunosuppression,Observational study,No action required; monitor as routine.,2023
+DI-0056,Metrofen,Renalix,Moderate,additive immunosuppression,Case reports,Monitor closely; consider dose adjustment.,2023
+DI-0057,Metrofen,Statin-R,Contraindicated,additive bleeding risk,Observational study,Do not co-administer.,2024
+DI-0058,Oncovex,Amlodex,Moderate,additive immunosuppression,Randomised trial,Monitor closely; consider dose adjustment.,2024
+DI-0059,Cardimexa,Clarithra,Minor,no clinically relevant mechanism identified,Case reports,No action required; monitor as routine.,2023
+DI-0060,Neurosyn,Velotrin,Major,CYP3A4 inhibition raises plasma levels,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0061,Lisinoprex,Oncovex,Major,additive bleeding risk,Observational study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0062,Warfarin-X,Cardimexa,Minor,additive immunosuppression,Randomised trial,No action required; monitor as routine.,2026
+DI-0063,Renalix,Lisinoprex,Moderate,additive bleeding risk,Observational study,Monitor closely; consider dose adjustment.,2025
+DI-0064,Velotrin,Amlodex,Contraindicated,displacement from plasma protein binding,Expert opinion,Do not co-administer.,2026
+DI-0065,Pulmora,Clarithra,Minor,no clinically relevant mechanism identified,Case reports,No action required; monitor as routine.,2026
+DI-0066,Dermacalm,Renalix,Minor,no clinically relevant mechanism identified,Observational study,No action required; monitor as routine.,2023
+DI-0067,Statin-R,Aspirin-L,Major,displacement from plasma protein binding,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0068,Aspirin-L,Loopdiuretic-F,Major,displacement from plasma protein binding,Case reports,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0069,Ketocon,Lipidara,Moderate,CYP3A4 induction lowers plasma levels,Observational study,Monitor closely; consider dose adjustment.,2024
+DI-0070,Renalix,Ketocon,Major,CYP3A4 induction lowers plasma levels,In vitro / PK study,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0071,Rifamex,Lisinoprex,Minor,reduced renal clearance,Case reports,No action required; monitor as routine.,2026
+DI-0072,Metrofen,Warfarin-X,Major,additive hypotensive effect,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0073,Amlodex,Metrofen,Moderate,reduced renal clearance,Expert opinion,Monitor closely; consider dose adjustment.,2026
+DI-0074,Statin-R,Ketocon,Major,additive nephrotoxicity,Case reports,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0075,Loopdiuretic-F,Velotrin,Major,additive immunosuppression,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0076,Warfarin-X,Statin-R,Major,CYP3A4 inhibition raises plasma levels,In vitro / PK study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0077,Rifamex,Dermacalm,Moderate,CYP3A4 inhibition raises plasma levels,Observational study,Monitor closely; consider dose adjustment.,2025
+DI-0078,Dermacalm,Cardimexa,Moderate,additive bleeding risk,Case reports,Monitor closely; consider dose adjustment.,2023
+DI-0079,Ketocon,Lisinoprex,Moderate,additive hypotensive effect,Observational study,Monitor closely; consider dose adjustment.,2023
+DI-0080,Cardimexa,Statin-R,Minor,additive immunosuppression,Randomised trial,No action required; monitor as routine.,2023
+DI-0081,Neurosyn,Dermacalm,Moderate,additive bleeding risk,Expert opinion,Monitor closely; consider dose adjustment.,2024
+DI-0082,Pulmora,Lipidara,Moderate,displacement from plasma protein binding,Case reports,Monitor closely; consider dose adjustment.,2026
+DI-0083,Amlodex,Ketocon,Moderate,additive immunosuppression,Case reports,Monitor closely; consider dose adjustment.,2025
+DI-0084,Neurosyn,Oncovex,Minor,no clinically relevant mechanism identified,Observational study,No action required; monitor as routine.,2026
+DI-0085,Metrofen,Lisinoprex,Minor,additive bleeding risk,In vitro / PK study,No action required; monitor as routine.,2024
+DI-0086,Amlodex,Rifamex,Moderate,additive nephrotoxicity,Observational study,Monitor closely; consider dose adjustment.,2023
+DI-0087,Amlodex,Renalix,Minor,displacement from plasma protein binding,Randomised trial,No action required; monitor as routine.,2026
+DI-0088,Lipidara,Warfarin-X,Moderate,reduced renal clearance,Expert opinion,Monitor closely; consider dose adjustment.,2023
+DI-0089,Aspirin-L,Oncovex,Major,displacement from plasma protein binding,In vitro / PK study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0090,Clarithra,Neurosyn,Major,additive immunosuppression,Case reports,"Avoid combination where possible; if used, monitor intensively.",2024
+DI-0091,Oncovex,Dermacalm,Minor,no clinically relevant mechanism identified,Expert opinion,No action required; monitor as routine.,2024
+DI-0092,Clarithra,Ketocon,Moderate,CYP3A4 induction lowers plasma levels,Expert opinion,Monitor closely; consider dose adjustment.,2026
+DI-0093,Lipidara,Aspirin-L,Minor,additive bleeding risk,In vitro / PK study,No action required; monitor as routine.,2026
+DI-0094,Metrofen,Rifamex,Major,additive nephrotoxicity,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2024
+DI-0095,Renalix,Clarithra,Major,reduced renal clearance,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0096,Warfarin-X,Ketocon,Minor,no clinically relevant mechanism identified,Expert opinion,No action required; monitor as routine.,2023
+DI-0097,Renalix,Neurosyn,Moderate,additive nephrotoxicity,In vitro / PK study,Monitor closely; consider dose adjustment.,2026
+DI-0098,Oncovex,Ketocon,Major,additive bleeding risk,Case reports,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0099,Clarithra,Dermacalm,Minor,additive immunosuppression,Observational study,No action required; monitor as routine.,2023
+DI-0100,Renalix,Statin-R,Major,additive bleeding risk,Expert opinion,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0101,Velotrin,Ketocon,Major,additive immunosuppression,Case reports,"Avoid combination where possible; if used, monitor intensively.",2026
+DI-0102,Oncovex,Rifamex,Minor,CYP3A4 inhibition raises plasma levels,In vitro / PK study,No action required; monitor as routine.,2025
+DI-0103,Clarithra,Lisinoprex,Minor,additive nephrotoxicity,Observational study,No action required; monitor as routine.,2024
+DI-0104,Warfarin-X,Loopdiuretic-F,Moderate,CYP3A4 inhibition raises plasma levels,Case reports,Monitor closely; consider dose adjustment.,2023
+DI-0105,Statin-R,Neurosyn,Major,additive hypotensive effect,Case reports,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0106,Velotrin,Pulmora,Minor,additive bleeding risk,Observational study,No action required; monitor as routine.,2026
+DI-0107,Amlodex,Neurosyn,Major,additive hypotensive effect,Observational study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0108,Clarithra,Metrofen,Minor,additive hypotensive effect,Case reports,No action required; monitor as routine.,2023
+DI-0109,Renalix,Rifamex,Major,CYP3A4 inhibition raises plasma levels,Observational study,"Avoid combination where possible; if used, monitor intensively.",2025
+DI-0110,Warfarin-X,Aspirin-L,Moderate,additive nephrotoxicity,In vitro / PK study,Monitor closely; consider dose adjustment.,2023
+DI-0111,Oncovex,Cardimexa,Minor,additive nephrotoxicity,Expert opinion,No action required; monitor as routine.,2025
+DI-0112,Velotrin,Cardimexa,Moderate,reduced renal clearance,Randomised trial,Monitor closely; consider dose adjustment.,2024
+DI-0113,Amlodex,Loopdiuretic-F,Minor,no clinically relevant mechanism identified,Case reports,No action required; monitor as routine.,2025
+DI-0114,Neurosyn,Cardimexa,Minor,additive bleeding risk,Case reports,No action required; monitor as routine.,2024
+DI-0115,Clarithra,Oncovex,Moderate,additive bleeding risk,In vitro / PK study,Monitor closely; consider dose adjustment.,2024
+DI-0116,Lipidara,Clarithra,Major,additive immunosuppression,Observational study,"Avoid combination where possible; if used, monitor intensively.",2023
+DI-0117,Neurosyn,Metrofen,Major,CYP3A4 induction lowers plasma levels,Randomised trial,"Avoid combination where possible; if used, monitor intensively.",2024
+DI-0118,Neurosyn,Ketocon,Minor,additive immunosuppression,In vitro / PK study,No action required; monitor as routine.,2023
+DI-0119,Cardimexa,Pulmora,Minor,no clinically relevant mechanism identified,In vitro / PK study,No action required; monitor as routine.,2025
+DI-0120,Renalix,Loopdiuretic-F,Minor,additive hypotensive effect,Case reports,No action required; monitor as routine.,2026
